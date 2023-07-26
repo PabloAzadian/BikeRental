@@ -1,0 +1,67 @@
+.plan-trip-container{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+.plan-trip-title{
+    text-align: center;
+    padding: 2rem;
+}
+
+.plan-trip-title h3{
+    font-family: Rubik,sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.plan-trip-title h2{
+    font-family: Poppins,sans-serif;
+    font-size: 4.2rem;
+    margin: 1.3rem 0 3rem;
+}
+
+.plan-trip-icon-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3rem;
+    padding: 0 3rem;
+    
+    
+}
+
+@media (max-width: 1021px) {
+    .plan-trip-icon-boxes {
+      grid-template-columns: 1fr 1fr;
+      row-gap: 2rem;
+      padding: 0 30px;
+    }
+    
+}
+  @media (max-width: 800px) {
+    .plan-trip-icon-boxes {
+      grid-template-columns: 1fr;
+      margin-top: 1rem;
+    }
+
+  }
+
+.plan-trip-icon-boxes img {
+    height: auto;
+    width: 10rem;
+}
+
+.plan-trip-icon-box{
+    padding: 1rem 4rem;
+    text-align: center;
+   
+}
+
+.plan-trip-icon-box h3 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+.plan-trip-icon-box p {
+     font-size: 1.2rem;
+    font-family: "Rubik", sans-serif;
+    color: #706f7b;
+    line-height: 1.43;
+  }

@@ -168,11 +168,11 @@ function BookBike() {
               <h2>Book a Bike</h2>
 
               <p className="error-message">
-                All fields required! <i className="fa-solid fa-xmark"></i>
+                All fields are required! <i className="fa-solid fa-xmark"></i>
               </p>
 
               <p className="booking-done">
-                Check your email to confirm an order.{" "}
+                Check your email to confirm the order.{" "}
                 <i onClick={hideMessage} className="fa-solid fa-xmark"></i>
               </p>
 
@@ -264,7 +264,7 @@ function BookBike() {
 
       {/* modal ------------------------------------ */}
 
-      <div className={`booking-modal ${modal ? "active-modal" : ""}`}>
+      <section className={`booking-modal ${modal ? "active-modal" : ""}`}>
         {/* title */}
         <div className="booking-modal__title">
           <h2>Complete Reservation</h2>
@@ -462,7 +462,7 @@ function BookBike() {
             </div>
           </form>
         </div>
-      </div>
+      </section>
     </>
   );
 }

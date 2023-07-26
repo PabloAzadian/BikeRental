@@ -1,20 +1,20 @@
 import { useState } from "react";
 
 function BikeBox({ data, bikeID }) {
-  const [carLoad, setCarLoad] = useState(true);
+  const [bikeLoad, setBikeLoad] = useState(true);
 
   return (
     <>
-      {data[bikeID].map((bike, id) => ( // Changed 'car' to 'bike' here
-        <div key={id} className="box-cars">
+      {data[bikeID].map((bike, id) => ( // Changed 'bike' to 'bike' here
+        <div key={id} className="box-bikes">
           {/* bike */}
-          <div className="pick-car">
-            {carLoad && <span className="loader"></span>}
+          <div className="pick-bike">
+            {bikeLoad && <span className="loader"></span>}
             <img
-              style={{ display: carLoad ? "none" : "block" }}
+              style={{ display: bikeLoad ? "none" : "block" }}
               src={bike.img}
               alt="bike_img"
-              onLoad={() => setCarLoad(false)}
+              onLoad={() => setBikeLoad(false)}
             />
           </div>
           {/* description */}
@@ -25,7 +25,7 @@ function BikeBox({ data, bikeID }) {
             <div className="pick-description__table">
               <div className="pick-description__table__col">
                 <span>Model</span>
-                <span>{bike.name}</span> {/* Changed 'car.model' to 'bike.name' */}
+                <span>{bike.name}</span> {/* Changed 'bike.model' to 'bike.name' */}
               </div>
               <div className="pick-description__table__col">
                 <span>Brand</span>

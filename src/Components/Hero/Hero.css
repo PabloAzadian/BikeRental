@@ -1,3 +1,4 @@
+
 .bg-shape {
     position: absolute;
     top: 0;
@@ -10,6 +11,11 @@
   @media (max-width: 800px) {
     .bg-shape {
       display: none;
+    }
+
+    .hero-container{
+      padding-bottom: 15rem;
+      margin: auto;
     }
   }
 
@@ -82,4 +88,10 @@
     z-index: 2;
     width: 65%;
     margin-top: 18rem;
+  }
+
+  @media (max-width: 800px) {
+    .hero-content__bike-img {
+      display: none;
+    }
   }

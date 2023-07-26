@@ -6,23 +6,25 @@
   .book-content {
     margin: 0 auto;
     margin-bottom: 10rem;
+    
   }
   .book-content__box {
-    background-color: #ffffff;
-    width: 100%;
-    padding: 4rem 4.5rem 5rem 5.5rem;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
-    height: auto;
-    position: relative;
-    z-index: 4;
-    color: white;
-    border-radius: 5px;
-    background-position: center center;
+    background-color: #fff;
+    background-image: url(../../images/book-bg.6f629a1041e9fd9c6685.png);
+    background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
+    color: #fff;
+    color: #010103;
     display: flex;
     flex-direction: column;
-    color: #010103;
+    height: auto;
+    padding: 4rem 4.5rem 5rem 5.5rem;
+    position: relative;
+    width: 100%;
+    z-index: 4;
   }
   @media (max-width: 400px) {
     .book-content__box {
@@ -33,6 +35,7 @@
     font-size: 2.4rem;
     font-weight: 700;
     margin-bottom: 2.7rem;
+    text-align: center;
   }
   .book-content__box .box-form {
     display: grid;
@@ -51,6 +54,8 @@
   @media (max-width: 630px) {
     .book-content__box .box-form {
       grid-template-columns: 1fr;
+      
+      margin: auto
     }
   }
   .book-content__box .box-form__bike-type {
@@ -66,7 +71,7 @@
     color: #0d6efd;
   }
   .book-content__box .box-form__bike-type select {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #ababab;
     font-family: "Rubik", sans-serif;
     border: 1px solid #ccd7e6;
@@ -101,6 +106,33 @@
     cursor: pointer;
     font-size: 1.6rem;
   }
+
+  @media (max-width: 630px) {
+    
+
+    
+
+    .book-content__box .box-form__bike-type select {
+      font-size: 0.8rem;
+      font-weight: 200;
+     padding: 0.5rem 0.5rem;
+    }
+
+    .book-content__box .box-form__bike-time input {
+      font-size: 0.8rem;
+      font-weight: 200;
+      padding: 0.5rem;
+    }
+
+    .book-content__box .box-form__bike-type label {
+      font-size: 1.2rem;
+    }
+
+    .book-content__box .box-form__bike-time label {
+      font-size: 1.3rem;
+  }
+
+}
   .book-content__box button {
     padding: 1.3rem 1.3rem;
     height: -moz-fit-content;
@@ -366,7 +398,12 @@
   @media (max-width: 650px) {
     .info-form__2col, .info-form__1col {
       grid-template-columns: 1fr;
+      
     }
+    .info-form__2col span, .info-form__1col span {
+      width: 80%;
+    }
+    
   }
   .info-form__2col span, .info-form__1col span {
     display: flex;

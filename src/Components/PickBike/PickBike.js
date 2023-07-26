@@ -4,7 +4,7 @@ import { BIKE_DATA } from "../BikeData"
 import "./PickBike.css"
 
 function PickBike() {
-  const [active, setActive] = useState("SecondCar");
+  const [active, setActive] = useState("SecondBike");
   const [colorBtn, setColorBtn] = useState("btn1");
 
   const btnID = (id) => {
@@ -18,8 +18,7 @@ function PickBike() {
   return (
     <>
       <section className="pick-section">
-        <div className="container">
-          <div className="pick-container">
+        <div className="pick-container">
             <div className="pick-container__title">
               <h3>Bike Models</h3>
               <h2>Our rental fleet</h2>
@@ -28,8 +27,8 @@ function PickBike() {
                 next adventure!
               </p>
             </div>
-            <div className="pick-container__car-content">
-              {/* pick car */}
+            <div className="pick-container__bike-content">
+              {/* pick bike */}
               <div className="pick-box">
                 <button
                   className={`${coloringButton("btn1")}`}
@@ -98,9 +97,8 @@ function PickBike() {
               {active === "FourthBike" && <BikeBox data={BIKE_DATA} bikeID={3} />}
               {active === "FifthBike" && <BikeBox data={BIKE_DATA} bikeID={4} />}
               {active === "SixthBike" && <BikeBox data={BIKE_DATA} bikeID={5} />}
+              </div>
             </div>
-          </div>
-        </div>
       </section>
     </>
   );

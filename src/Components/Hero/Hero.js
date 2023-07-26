@@ -3,20 +3,20 @@ import BgSkyline from "../../images/BgPng2.png";
 import Button from "react-bootstrap/Button"
 import "./Hero.css"
 
-const arrowString = "-->"
+
 
 function Hero() {
     return(
         
-            <div className="container">
-                 <section id="home" className="hero-section">
+    <section className="hero-container">
+      <section id="home" className="hero-section">
         <div className="container">
           <img className="bg-shape" src={BgSkyline} alt="bg-shape" />
           <div className="hero-content">
             <div className="hero-content__text">
-              <h4>Plan your trip now</h4>
+              <h4>Your Ride, Your Way</h4>
               <h1>
-                Save <span>big</span> with our bike rental
+                Unleash the <span>Cyclist</span> Within You
               </h1>
               <p>
                 Unbeatable prices, unlimited miles,
@@ -38,7 +38,7 @@ function Hero() {
         </div>
 
       </section>
-            </div>
+            </section>
         
         
     )

@@ -16,7 +16,7 @@ function NavBar() {
             <img
               alt=""
               src={bikeicon}
-              width="50"
+              width="70"
               height="40"
               className="d-inline-block align-top"
             />{' '}
