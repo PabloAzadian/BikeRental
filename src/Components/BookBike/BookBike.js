@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import TrekDomaneSL5 from "../../images/TrekDomaneSL5.png";
-import GiantTalon3 from "../../images/GiantTalon3.png";
-import SpecializedSirrusX40 from "../../images/SpecializedSirrusX40.png";
-import CannondaleSynapseCarbonDisc105 from "../../images/CannondaleSynapseCarbonDisc105.png";
-import ScottSpark960 from "../../images/ScottSpark960.png";
-import BianchiInfinitoCVUltegra from "../../images/BianchiInfinitoCVUltegra.png";
+import TrekDomaneSL5 from "../../images/bikes/TrekDomaneSL5.png";
+import GiantTalon3 from "../../images/bikes/GiantTalon3.png";
+import SpecializedSirrusX40 from "../../images/bikes/SpecializedSirrusX40.png";
+import CannondaleSynapseCarbonDisc105 from "../../images/bikes/CannondaleSynapseCarbonDisc105.png";
+import ScottSpark960 from "../../images/bikes/ScottSpark960.png";
+import BianchiInfinitoCVUltegra from "../../images/bikes/BianchiInfinitoCVUltegra.png";
 import "./BookBike.css"
 
 

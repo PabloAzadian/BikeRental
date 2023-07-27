@@ -1,6 +1,5 @@
-import Bike from "../../images/BianchiInfinitoCVUltegra.png";
-import BgSkyline from "../../images/BgPng2.png";
-import Button from "react-bootstrap/Button"
+import Bike from "../../images/bikes/BianchiInfinitoCVUltegra.png";
+import BgSkyline from "../../images/backgrounds/BgPng2.png";
 import "./Hero.css"
 
 
@@ -23,8 +22,12 @@ function Hero() {
                 flexible pick-up options and much more.
               </p>
               <div className="hero-content__text__btns">
-                <Button className="p-3">Book Ride</Button>
-                <Button className="btn-dark p-4">Learn More</Button>
+                <a className="btn1" href="#booking-section">
+                Book Ride
+                </a>
+                <a className="btn2" href="#plan-trip">
+                Learn More
+                </a>
               </div>
             </div>
 

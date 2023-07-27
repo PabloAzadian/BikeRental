@@ -1,0 +1,88 @@
+.testimonials-section {
+    padding: 10rem 0;
+    padding-top: 4rem;
+    background-color: #f8f8f8;
+}
+.testimonials-container{ 
+    width: 80%;
+    margin: auto
+}
+
+.testimonials-title-container {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 70%
+}
+.testimonials-title-container  h5{
+    font-size: 2rem;
+}
+
+.testimonials-title-container h2{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.testimonials-title-container p{
+    color: #706f7b;
+    font-size: 1.2rem;
+}
+
+.testimonials-boxes-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-top: 4rem;
+    padding:  3rem;
+    justify-content: center;
+    
+    
+}
+
+@media (max-width: 1021px) {
+    .testimonials-boxes-container {
+      grid-template-columns: 1fr 1fr;
+      row-gap: 2rem;
+      padding: 0 30px;
+    }
+    
+}
+  @media (max-width: 800px) {
+    .testimonials-boxes-container {
+      grid-template-columns: 1fr;
+      margin-top: 1rem;
+    }
+
+  }
+  
+.testimonials-box{
+    background-image: url(../../images/backgrounds/Bookbg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
+    padding: 3rem;
+    
+    
+}
+.testimonials-box-quote {
+    font-size: 1.2rem;
+    font-weight: 500;
+    max-width: 20rem
+}
+
+.testimonials-box-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+}
+
+.profile {
+    
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+

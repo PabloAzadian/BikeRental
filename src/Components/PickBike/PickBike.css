@@ -41,6 +41,9 @@
       flex-direction: column;
       gap: 5rem;
     }
+    .box-bikes{
+      flex-direction: column;
+    }
   }
   
   .pick-box {
@@ -59,7 +62,7 @@
     background-color: #e9e9e9;
     transition: all 0.2s;
     text-align: left;
-    width: 20rem
+    width: 18rem;
   }
   .pick-box button:hover {
     background-color: #0d6efd;
@@ -67,10 +70,14 @@
   }
   
   .pick-bike {
+    background-image: url(../../images/backgrounds/BgPng.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 50rem;
     position: relative;
   }
-  @media (max-width: 700px) {
+  @media (max-width: 1050px) {
     .pick-bike {
       width: 100%;
     }
@@ -78,7 +85,17 @@
   .pick-bike img {
     width: 40rem;
     margin: auto;
-    margin-top: 4rem;
+    margin-top: 9rem;
+    animation: fadeIn 0.3s;
+  }
+
+  @keyframes fadeIn{
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   .pick-description {
     width: 27rem;
@@ -129,6 +146,13 @@
     border-right: 2px solid #706f7b;
     border-left: 2px solid #706f7b;
   }
+  .pick-description__table__col span {
+    animation: fadeIn 1s;
+  }
+  
+
+  
+  
   .pick-description__table__col span:nth-child(1) {
     border-right: 2px solid #706f7b;
   }
@@ -175,10 +199,10 @@
   }
   @media (max-width: 1200px) {
     .box-bikes {
-      gap: 2rem;
+      flex-direction: column;
     }
   }
-  @media (max-width: 700px) {
+  @media (max-width: 1050px) {
     .box-bikes {
       flex-direction: column;
       align-items: center;

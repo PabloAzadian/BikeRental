@@ -1,0 +1,56 @@
+.download-app-section {
+    padding: 5rem 0;
+    padding-top: 4rem;
+    background-image: url(../../images/backgrounds/iphoneBg.png);
+    background-position: 85% 100%;
+    background-repeat: no-repeat;
+    background-size: 800px 400px;
+    
+}
+
+@media (max-width: 850px){
+    .download-app-section {
+    background-image: none;
+    }
+
+    .download-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .download-buttons img{
+        width:40% ;
+    }
+
+}
+.download-app-container{ 
+    width: 80%;
+    margin: auto
+}
+
+.download-app-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 40rem;
+    text-align: left;
+}
+
+.download-app-text h2 {
+    font-size: 3rem;
+}
+
+.download-app-text p {
+    color: #706f7b;
+    font-family: Rubik,sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.download-buttons {
+    display: flex;
+    gap: 3rem;
+}
+
+

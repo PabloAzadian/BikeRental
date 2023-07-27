@@ -10,7 +10,7 @@
   }
   .book-content__box {
     background-color: #fff;
-    background-image: url(../../images/book-bg.6f629a1041e9fd9c6685.png);
+    background-image: url(../../images/backgrounds/Bookbg.png);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,7 +121,6 @@
     .book-content__box .box-form__bike-time input {
       font-size: 0.8rem;
       font-weight: 200;
-      padding: 0.5rem;
     }
 
     .book-content__box .box-form__bike-type label {
@@ -131,8 +130,21 @@
     .book-content__box .box-form__bike-time label {
       font-size: 1.3rem;
   }
-
 }
+  @media (max-width: 830px) {
+    .book-content__box .box-form__bike-type select {
+      font-size: 0.9rem;
+      font-weight: 200;
+     padding: 0.5rem 0.5rem;
+    }
+
+    .book-content__box .box-form__bike-time input {
+      font-size: 0.8rem;
+      font-weight: 200;
+    }
+  }
+
+
   .book-content__box button {
     padding: 1.3rem 1.3rem;
     height: -moz-fit-content;

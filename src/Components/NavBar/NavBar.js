@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Button from "react-bootstrap/Button"
-import bikeicon from "../../images/bikeicon.png"
+import bikeicon from "../../images/icons/bikeicon.png"
 import "./NavBar.css"
 
 function NavBar() {
@@ -26,12 +26,12 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="m-auto justify-content-center" id="basic-navbar-nav">
           <Nav className="m-auto justify-content-center">
-            <Nav.Link className="m-auto p-2">Home</Nav.Link>
-            <Nav.Link className="m-auto p-2">About</Nav.Link>
-            <Nav.Link className="m-auto p-2">Bike Models</Nav.Link>
-            <Nav.Link className="m-auto p-2">Testimonials</Nav.Link>
-            <Nav.Link className="m-auto p-2">Our Team</Nav.Link>
-            <Nav.Link className="m-auto p-2">Contact</Nav.Link>
+            <Nav.Link href="#home" className="m-auto p-2">Home</Nav.Link>
+            <Nav.Link href="#plan-trip" className="m-auto p-2">About</Nav.Link>
+            <Nav.Link href="#pick-bike" className="m-auto p-2">Bike Models</Nav.Link>
+            <Nav.Link href="#testimonials" className="m-auto p-2">Testimonials</Nav.Link>
+            <Nav.Link  className="m-auto p-2">Our Team</Nav.Link>
+            <Nav.Link  className="m-auto p-2">Contact</Nav.Link>
           </Nav>
           <Nav>
           <Nav.Link className="m-auto p-3">Sign In</Nav.Link>

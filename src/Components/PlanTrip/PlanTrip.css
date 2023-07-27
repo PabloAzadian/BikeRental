@@ -1,6 +1,8 @@
 .plan-trip-container{
-    max-width: 100rem;
-    margin: 0 auto;
+  padding: 10rem 0;
+  padding-top: 4rem;
+  background-color: #f8f8f8;
+    
 }
 .plan-trip-title{
     text-align: center;
@@ -9,14 +11,15 @@
 
 .plan-trip-title h3{
     font-family: Rubik,sans-serif;
-    font-size: 2.4rem;
-    font-weight: 500;
+    font-size: 1.8rem;
+    font-weight: 600;
 }
 
 .plan-trip-title h2{
     font-family: Poppins,sans-serif;
-    font-size: 4.2rem;
+    font-size: 3rem;
     margin: 1.3rem 0 3rem;
+    font-weight: 700;
 }
 
 .plan-trip-icon-boxes {
@@ -44,9 +47,10 @@
 
   }
 
-.plan-trip-icon-boxes img {
+.plan-trip-icon-box img {
     height: auto;
     width: 10rem;
+    transition: transform 0.3s ease;
 }
 
 .plan-trip-icon-box{
@@ -65,3 +69,45 @@
     color: #706f7b;
     line-height: 1.43;
   }
+.bike-img:hover{
+  animation: moveToLeft 3s ease-in-out;
+} 
+.customer-support-img:hover{
+  animation: scaleUp 1s linear;
+}
+
+.explore-img:hover {
+    animation: spin 1s linear;
+  }
+
+  
+  
+  
+  /* Define the icon animations */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes moveToLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-500%);
+    }
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+  
