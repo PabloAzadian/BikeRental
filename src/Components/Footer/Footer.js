@@ -21,7 +21,7 @@ function Footer() {
                 <li>
                   <a href="tel:123456789">
                     <img height="20px" src={Phone}/>
-                    &nbsp; (123) -456-789
+                    &nbsp; (+49) 188 88888888
                   </a>
                 </li>
   
@@ -40,16 +40,16 @@ function Footer() {
               <ul className="footer-content__2">
                 <li>Company</li>
                 <li>
-                  <a href="#home">New York</a>
+                  <a href="#home">Cologne</a>
                 </li>
                 <li>
-                  <a href="#home">Careers</a>
+                  <a href="#home">Bonn</a>
                 </li>
                 <li>
-                  <a href="#home">Mobile</a>
+                  <a href="#home">Düsseldorf</a>
                 </li>
                 <li>
-                  <a href="#home">Blog</a>
+                  <a href="#home">Aachen</a>
                 </li>
                 <li>
                   <a href="#home">How we work</a>
