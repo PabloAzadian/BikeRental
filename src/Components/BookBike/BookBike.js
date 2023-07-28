@@ -199,7 +199,7 @@ function BookBike() {
 
                 <div className="box-form__bike-type">
                   <label>
-                    Pick-up <b>*</b>
+                    Pick-up Location<b>*</b>
                   </label>
                   <select value={pickUp} onChange={handlePick}>
                     <option>Select pick up location</option>
@@ -213,8 +213,7 @@ function BookBike() {
 
                 <div className="box-form__bike-type">
                   <label>
-                    Drop-of&nbsp;
-                    <b>*</b>
+                    Drop-off Location <b>*</b>
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
                     <option>Select drop off location</option>
@@ -229,7 +228,7 @@ function BookBike() {
                 <div className="box-form__bike-time">
                   <label htmlFor="picktime">
                     
-                    Pick-up <b>*</b>
+                    Pick-up Time<b>*</b>
                   </label>
                   <input
                     id="picktime"
@@ -242,7 +241,7 @@ function BookBike() {
                 <div className="box-form__bike-time">
                   <label htmlFor="droptime">
                     <i className="fa-regular fa-calendar-days "></i> &nbsp;
-                    Drop-of <b>*</b>
+                    Drop-off Time <b>*</b>
                   </label>
                   <input
                     id="droptime"

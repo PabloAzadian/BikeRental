@@ -28,6 +28,23 @@
     font-size: 1.2rem;
 }
 
+@media (max-width:630px) {
+    .testimonials-title-container  h5{
+        font-size: 1rem;
+    }
+    .testimonials-title-container h2{
+        font-size: 2rem;
+        
+    }
+
+    .testimonials-title-container p{
+        
+        font-size: 0.7rem;
+    }
+    
+    
+}
+
 .testimonials-boxes-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

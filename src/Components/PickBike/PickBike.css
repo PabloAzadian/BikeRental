@@ -1,6 +1,9 @@
 .pick-section {
     padding: 10rem 0;
+    background-color: #f8f8f8;
+    
   }
+  
   
   .pick-container {
     display: flex;
@@ -63,6 +66,7 @@
     transition: all 0.2s;
     text-align: left;
     width: 18rem;
+    border-radius:15px;
   }
   .pick-box button:hover {
     background-color: #0d6efd;

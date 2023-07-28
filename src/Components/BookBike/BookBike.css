@@ -117,13 +117,19 @@
 
   @media (max-width: 630px) {
     
-
     
+    .book-content__box .box-form__bike-type {
+      justify-content: center;
+      text-align: center;
+    }
+    .book-content__box .box-form__bike-type a {
+      font-size: 12px;
+    }
 
     .book-content__box .box-form__bike-type select {
-      font-size: 0.8rem;
-      font-weight: 200;
-     padding: 0.5rem 0.5rem;
+      width: 80%;
+      margin: auto;
+      color: #010103;
     }
 
     .book-content__box .box-form__bike-time input {
@@ -137,6 +143,17 @@
 
     .book-content__box .box-form__bike-time label {
       font-size: 1.3rem;
+  }
+
+  .book-content__box .box-form__bike-time {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .book-content__box .box-form__bike-time input {
+    color: #010103;
+    width: 80%;
+    margin: auto;
   }
 }
   @media (max-width: 830px) {

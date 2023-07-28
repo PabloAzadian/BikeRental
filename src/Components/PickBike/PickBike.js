@@ -30,7 +30,6 @@ function PickBike() {
               {/* pick bike */}
               <div className="pick-box">
                 <button
-                  className={`${coloringButton("btn1")}`}
                   onClick={() => {
                     setActive("FirstBike");
                     btnID("btn1");
@@ -39,7 +38,6 @@ function PickBike() {
                   Trek Domane SL 5
                 </button>
                 <button
-                  className={`${coloringButton("btn2")}`}
                   id="btn2"
                   onClick={() => {
                     setActive("SecondBike");
@@ -49,7 +47,6 @@ function PickBike() {
                   Giant Talon 3
                 </button>
                 <button
-                  className={`${coloringButton("btn3")}`}
                   id="btn3"
                   onClick={() => {
                     setActive("ThirdBike");
@@ -59,7 +56,6 @@ function PickBike() {
                   Specialized Sirrus X 4.0
                 </button>
                 <button
-                  className={`${coloringButton("btn4")}`}
                   id="btn4"
                   onClick={() => {
                     setActive("FourthBike");
@@ -69,7 +65,6 @@ function PickBike() {
                   Cannondale Synapse Carbon Disc
                 </button>
                 <button
-                  className={`${coloringButton("btn5")}`}
                   id="btn5"
                   onClick={() => {
                     setActive("FifthBike");
@@ -79,7 +74,6 @@ function PickBike() {
                   Scott Spark 960
                 </button>
                 <button
-                  className={`${coloringButton("btn6")}`}
                   id="btn6"
                   onClick={() => {
                     setActive("SixthBike");

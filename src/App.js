@@ -19,8 +19,9 @@ function App() {
       <NavBar/>
       <Hero/>
       <BookBike/>
-      <PlanTrip/>
+      
       <PickBike/>
+      <PlanTrip/>
       <Banner/>
       {/* <ChooseUs/>*/}
       <FaQ/>
