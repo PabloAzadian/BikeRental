@@ -8,7 +8,20 @@
     
 }
 
-@media (max-width: 850px){
+.download-app-container{ 
+    width: 80%;
+    margin: auto
+}
+
+.download-app-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 40rem;
+    text-align: left;
+}
+
+@media (max-width:1250px){
     .download-app-section {
     background-image: none;
     }
@@ -23,19 +36,17 @@
         width:40% ;
     }
 
-}
-.download-app-container{ 
-    width: 80%;
-    margin: auto
+    .download-app-container{ 
+        text-align: center;
+    }
+    .download-app-text {
+        text-align: center;
+        margin: auto;
+    }
+    
+
 }
 
-.download-app-text {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    max-width: 40rem;
-    text-align: left;
-}
 
 .download-app-text h2 {
     font-size: 3rem;

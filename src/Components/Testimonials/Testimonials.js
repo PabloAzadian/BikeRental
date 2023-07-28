@@ -21,7 +21,7 @@ function Testimonials() {
                         "Even though i had a <a href='https://www.youtube.com/shorts/9mRFoDWMtpY'  target="_blank">little incident</a>, I was impressed by the eco-friendly
                          approach and the excellent condition of the bikes.It's essential to promote
                          active lifestyles and reduce our carbon footprint, and this rental service 
-                         does just that. Keep up the good work!"</p>
+                         does just that.<br></br> Keep up the good work!"</p>
                         <div className='testimonials-box-footer'>
                             <div className='profile'>
                                 <Image 
@@ -35,9 +35,9 @@ function Testimonials() {
                     </div>
                     <div className='testimonials-box'>
                         <p className='testimonials-box-quote'>
-                        "Exploring the city on these comfortable bikes was a delight. The routes
+                        "Exploring the city on these comfortable bikes was a delight.<br></br> The routes
                          recommended were perfect for leisurely rides, and it's a great way to 
-                         unwind and stay in shape while traveling. Highly recommended!"</p>
+                         unwind and stay in shape while traveling.<br></br> Highly recommended!"</p>
                         <div className='testimonials-box-footer'>
                             <div className='profile'>
                                 <Image 
@@ -51,9 +51,9 @@ function Testimonials() {
                     </div>
                     <div className='testimonials-box'>
                         <p className='testimonials-box-quote'>
-                        "This bike rental joint is off the chain! The wheels they got are straight-up
-                         fire, and the service? It's on point, man! I had a blast cruisin' around the 
-                         city, feelin' like a boss on their slick bikes. No doubt, I'm rollin' back for more!"</p>
+                        "This bike rental joint is off the chain! The wheels they got are straight-up fire,
+                         and the service?<br></br> It's on point, man! I had a blast cruisin' around the city, feelin'
+                         like a boss on their slick bikes. No doubt, I'm rollin' back for more!"</p>
                         <div className='testimonials-box-footer'>
                             <div className='profile'>
                                 <Image 

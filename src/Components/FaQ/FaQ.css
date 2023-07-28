@@ -3,7 +3,7 @@
     background-position: 0 80%;
     background-repeat: no-repeat;
     background-size: auto;
-    padding: 10rem 0;
+    padding: 5rem 0;
 }
 .faq-container{ 
     width: 60%;
@@ -37,7 +37,7 @@
 .accordion-flush .accordion-item {
    
     box-shadow: 15px 15px 15px 0 rgba(0,0,0,.1);
-    width: 60rem;
+    width:100%;
     margin: auto;
 }
 
@@ -48,13 +48,11 @@
 }
 
 
-
-
-
-
-@media (max-width: 830px) {
-    
-  .accordion-flush .accordion-item {
-    width:100%;
+@media (max-width:850px) {
+    .faq-container{ 
+        width: 80%;
+       
+    }
 }
-}
+
+

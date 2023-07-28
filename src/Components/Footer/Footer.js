@@ -20,8 +20,8 @@ function Footer() {
                 </li>
                 <li>
                   <a href="tel:123456789">
-                    <img height="20px" src={Phone}/>
-                    &nbsp; (+49) 188 88888888
+                    <img height="20px" src={Phone}/> (+49) 188 88888888
+                    
                   </a>
                 </li>
   
@@ -30,8 +30,8 @@ function Footer() {
                     href="mailto: 
                   carrental@gmail.com"
                   >
-                    <img height="20px" src={Mail}/>
-                    &nbsp; bikerental@gmail.com
+                    <img height="20px" src={Mail}/> bikerental@gmail.com
+                    
                   </a>
                 </li>
 
