@@ -13,7 +13,7 @@ function BookBike() {
   const [modal, setModal] = useState(false); //  class - active-modal
 
   // booking bike
-  const [bikeType, setbikeType] = useState("");
+  const [bikeType, setBikeType] = useState("");
   const [pickUp, setPickUp] = useState("");
   const [dropOff, setDropOff] = useState("");
   const [pickTime, setPickTime] = useState("");
@@ -102,7 +102,7 @@ function BookBike() {
 
   // taking value of booking inputs
   const handlebike = (e) => {
-    setbikeType(e.target.value);
+    setBikeType(e.target.value);
     setbikeImg(e.target.value);
   };
 
@@ -240,7 +240,6 @@ function BookBike() {
 
                 <div className="box-form__bike-time">
                   <label htmlFor="droptime">
-                    <i className="fa-regular fa-calendar-days "></i> &nbsp;
                     Drop-off Time <b>*</b>
                   </label>
                   <input

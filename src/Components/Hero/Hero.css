@@ -9,10 +9,10 @@
     
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: 600px) {
     .hero-container{
       padding-bottom: 10rem;
-      margin: auto;
+      
     }
 }
 
@@ -83,12 +83,7 @@
     
   }
 
-  .hero-content__text__btns button {
-    
-    font-weight: 500;
-    font-size: 1.6rem;
-    font-family: "Rubik", sans-serif;
-  }
+ 
   @media (max-width: 450px) {
     .hero-content__text__btns {
       flex-direction: column;
@@ -101,7 +96,7 @@
     margin-top: 18rem;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 830px) {
     .hero-content__bike-img {
       display: none;
     }
@@ -110,7 +105,7 @@
   .btn1 {
     font-size: 2rem;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     color: white;
     font-family: "Poppins", sans-serif;
     background-color: #0d6efd;
@@ -124,7 +119,7 @@
   .btn2 {
     font-size: 2rem;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     color: white;
     font-family: "Poppins", sans-serif;
     background-color: black;
@@ -147,10 +142,11 @@
     box-shadow: none
   } 
 
-  @media (max-width: 800px) {
+  @media (max-width: 830px) {
     .hero-content h1 {
       font-size: 4rem;
     }
+
   }
 
 
