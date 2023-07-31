@@ -181,7 +181,7 @@
 
 
   .book-content__box button {
-    padding: 1.3rem 1.3rem;
+    padding: 12px 12px;
     height: -moz-fit-content;
     height: fit-content;
     align-self: self-end;
@@ -191,12 +191,12 @@
     font-weight: 500;
     color: white;
     background-color: #0d6efd;
-    box-shadow: 0 10px 15px #0b4eb3;
+    box-shadow: 0 10px 10px #0b4eb3;
     cursor: pointer;
     transition: all 0.3s;
   }
   .book-content__box button:hover {
-    box-shadow: 0 10px 15px #04193a;;
+    box-shadow: 0 10px 12px #04193a;;
   }
   
   .error-message {
