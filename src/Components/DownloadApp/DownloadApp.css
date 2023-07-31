@@ -6,11 +6,19 @@
     background-repeat: no-repeat;
     background-size: 800px 400px;
     
+
+    
 }
 
 .download-app-container{ 
     width: 80%;
-    margin: auto
+    margin: auto;
+    max-width:1800px;
+    margin: auto;
+    width: 80%;
+    margin: auto;
+    
+    
 }
 
 .download-app-text {

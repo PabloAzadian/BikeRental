@@ -5,7 +5,8 @@
 }
 .testimonials-container{ 
     width: 80%;
-    margin: auto
+    margin: auto;
+    max-width: 1800px;
 }
 
 .testimonials-title-container {

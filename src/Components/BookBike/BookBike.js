@@ -251,7 +251,7 @@ function BookBike() {
                 </div>
 
                 <button onClick={openModal} type="submit">
-                  Search
+                  Check Availability
                 </button>
               </form>
             </div>

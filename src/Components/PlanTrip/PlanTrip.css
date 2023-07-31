@@ -1,6 +1,8 @@
 .plan-trip-container{
   padding: 10rem 0;
   padding-top: 4rem;
+  max-width: 1800px;
+  margin: auto;
     
 }
 .plan-trip-title{
