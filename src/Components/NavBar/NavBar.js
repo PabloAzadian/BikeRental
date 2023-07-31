@@ -35,7 +35,7 @@ function NavBar() {
           </Nav>
           <Nav>
           <Nav.Link className="m-auto p-3">Sign In</Nav.Link>
-          <Button className="shadow p-2 px-3" variant="primary">Register</Button>
+          <Button className="shadow px-3" variant="primary">Register</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
